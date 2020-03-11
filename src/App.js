@@ -26,6 +26,7 @@ function App() {
 
     <div className="App">
       <header className="App-header">
+        <h3>open console</h3>
        <Comp1/>
        <Comp2/>
        <Comp3/>
