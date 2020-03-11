@@ -1,13 +1,14 @@
+import React from 'react';
+import {Provider} from "react-redux";
 import { createStore, compose } from "redux";
 import reducer from "./reducer";
-
-import React from 'react';
 
 import Comp1 from "./comopnents/comp1";
 import Comp2 from "./comopnents/comp2";
 import Comp3 from "./comopnents/comp3";
+import img from './render.png';
+
 import './App.css';
-import {Provider} from "react-redux";
 
 const composeEnhancers =
   typeof window === "object" &&
@@ -27,6 +28,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h3>open console</h3>
+        <img src={img} alt=""/>
        <Comp1/>
        <Comp2/>
        <Comp3/>
