@@ -32,3 +32,6 @@ https://medium.com/@abraztsov/refs-%D0%B2-react-%D0%B2%D1%81%D1%91-%D1%87%D1%82%
 https://monsterlessons.com/project/lessons/react-refs
 
 Ref отличный способ доступа к DOM елементам, но его нужно применять с осторожностью. Нужно помнить, что это не React way, а просто возможность доступа к DOM елементам. Всегда лучше использовать state, props если это возможно вместо refs, так как они поддерживают правильный флоу данных в приложении, а refs нет.
+
+переводчик для хрома
+https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh?hl=ru
